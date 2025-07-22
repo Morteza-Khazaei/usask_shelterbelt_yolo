@@ -1,0 +1,11 @@
+# YOLOv8 dataset configuration file
+
+path: ./shelterbelt_dataset  # Root directory of the dataset (relative to project root)
+train: train/images  # Path to training images (relative to 'path')
+val: val/images      # Path to validation images (relative to 'path')
+test: test/images     # Path to test images (relative to 'path')
+
+# Class names
+names:
+  0: SHBELT
+  1: FOREST
